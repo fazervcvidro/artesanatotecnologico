@@ -36,7 +36,8 @@ notas: integração externa no futuro
 
 
 
-Para funcionamento do código da esp, necessário clonar o https://github.com/espressif/esp-csi em uma pasta acessar a pasta esp-csi/tree/master/examples/get-started/csi_recv_router/main e alterar o código main conforme o que temos aqui, posteriormente abrir o ESP-IDF e colocar cd (caminho da pasta csi_recv_router acima), dar os seguintes comandos
-idf.py fullclean
-idf.py build
-idf.py -p (Porta serial que pegou na sua máquina) flash 
+Para funcionamento do código da esp, necessário clonar o https://github.com/espressif/esp-csi em uma pasta acessar a pasta esp-csi/tree/master/examples/get-started/csi_recv_router/main e alterar o código main conforme o que temos aqui além de colocar o ip do servidor do código como o ip da sua máquina se for em momentos de teste, posteriormente abrir o ESP-IDF e colocar cd (caminho da pasta csi_recv_router acima), dar os seguintes comandos
+idf.py fullclean / 
+idf.py build / 
+idf.py -p (Porta serial que pegou na sua máquina) flash /
+

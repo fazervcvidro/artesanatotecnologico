@@ -40,4 +40,6 @@ Para funcionamento do código da esp, necessário clonar o https://github.com/es
 idf.py fullclean / 
 idf.py build / 
 idf.py -p (Porta serial que pegou na sua máquina) flash /
+Também tem um código ouvinte python que escuta e da start no envio dos dados
+
 
